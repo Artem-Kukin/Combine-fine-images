@@ -1,0 +1,127 @@
+.about {
+  padding: 110px 0 154px;
+}
+.about-me {
+  text-align: start;
+  color: var(--color-black);
+  margin-bottom: 45px;
+}
+.about-me__title-top {
+  font-family: var(--font-family-b);
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.about-me__text-bottom {
+  font-family: var(--font-family-l);
+  font-size: 24px;
+}
+
+.about-cards__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+}
+.card-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.card-icon__pie-chart {
+  background-color: var(--color-blue-dark);
+}
+.card-icon__phone-call {
+  background-color: var(--color-pink-dark);
+}
+
+.card-icon__zap {
+  background-color: var(--color-purple-dark);
+}
+.card-icon__thumbs-up {
+  background-color: var(--color-green-dark);
+}
+
+.card-icon__img {
+  width: 56px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.card-description {
+  color: var(--color-black);
+}
+.card-description__title {
+  font-family: var(--font-family-b);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.card-description__text {
+  font-family: var(--font-family-l);
+  font-size: 18px;
+
+  line-height: 32px;
+}
+
+.card__button {
+  min-width: 146px;
+  min-height: 48px;
+  font-size: 18px;
+  margin-top: auto;
+}
+
+@media (max-width: 1000px) {
+  .about-cards__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .card {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+
+@media (max-width: 850px) {
+  .card__button {
+    min-width: clamp(110px, 30vw, 146px);
+    min-height: clamp(35px, 9vw, 48px);
+    font-size: clamp(14px, 3vw, 18px);
+  }
+}
+
+@media (max-width: 780px) {
+  .about{
+    padding: 80px 0 40px;
+  }
+}
+
+@media (max-width: 675px) {
+  .about-me__title-top {
+    font-size: clamp(24px, 6vw, 32px);
+    margin-bottom: 8px;
+  }
+  .about-me__title-top__span-none {
+    display: none;
+  }
+  .about-me__text-bottom {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+}
+
+@media (max-width: 500px) {
+  .about-cards__inner {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+  }
+
+}

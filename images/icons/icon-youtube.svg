@@ -1,0 +1,15 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2_4584">
+			<rect rx="-0.500000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect rx="-0.500000" width="39.000000" height="39.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2_4584)">
+		<path d="M29.83 13.15C29.49 12.8 29.07 12.55 28.6 12.41C26.88 12 20 12 20 12C20 12 13.12 12 11.4 12.46C10.92 12.59 10.5 12.84 10.16 13.19C9.82 13.55 9.57 13.98 9.46 14.46C9.14 16.2 8.99 17.97 9 19.75C8.98 21.53 9.14 23.32 9.46 25.08C9.59 25.53 9.83 25.95 10.17 26.29C10.51 26.63 10.93 26.87 11.4 27C13.12 27.46 20 27.46 20 27.46C20 27.46 26.88 27.46 28.6 27C29.07 26.86 29.49 26.61 29.83 26.26C30.17 25.9 30.42 25.47 30.54 25C30.85 23.26 31 21.51 31 19.75C31.01 17.96 30.85 16.17 30.54 14.41C30.42 13.94 30.17 13.51 29.83 13.15Z" stroke="#2D3436" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path d="M23.5 19.75L17.75 16.48L17.75 23.02L23.5 19.75Z" stroke="#2D3436" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+	</g>
+</svg>
