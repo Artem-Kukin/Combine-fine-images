@@ -1,5 +1,5 @@
 .header__nav-close-btn {
-  content-visibility: hidden;
+  display: none;
 }
 .header {
   padding-block: 16px;
@@ -71,7 +71,7 @@
 
 @media (max-width: 915px) {
   .header__logo-image {
-    content-visibility: hidden;
+    display: none;
   }
 
   .header__logo-mobile-menu {
@@ -90,7 +90,7 @@
   }
 
   .header__nav-close-btn {
-    content-visibility: visible;
+    display: block;
     margin-left: auto;
   }
   .header__nav {
