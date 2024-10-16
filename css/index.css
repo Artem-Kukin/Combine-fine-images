@@ -46,6 +46,7 @@
 
 .container {
   padding-inline: 135px;
+  overflow: hidden;
 }
 a {
   text-decoration: none;

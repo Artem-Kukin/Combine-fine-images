@@ -111,9 +111,7 @@
   height: 82px;
 }
 @media (max-width: 850px) {
-  .main__image__overflow {
-    overflow: hidden;
-  }
+
   .main__grid-text {
     display: none;
   }
