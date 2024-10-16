@@ -1,6 +1,6 @@
 # Combine fine images
 
-![](images/)
+![](images/background/banner.png)
 
-### Посмотреть можно: [*тут!*]()
+### Посмотреть можно: [*тут!*](https://artem-kukin.github.io/Combine-fine-images/)
 
