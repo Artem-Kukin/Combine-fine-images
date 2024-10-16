@@ -1,5 +1,5 @@
 .price {
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 .price__title {
   text-align: center;
@@ -109,7 +109,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  background: url(/images/icons/icon-check.svg) no-repeat center;
+  background: url(../images/icons/icon-check.svg) no-repeat center;
   border-radius: 50%;
   left: -15%;
   top: 0%;
