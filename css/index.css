@@ -43,10 +43,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .container {
   padding-inline: 135px;
-  overflow: hidden;
 }
 a {
   text-decoration: none;
@@ -64,4 +62,3 @@ a {
     padding-inline: 15px;
   }
 }
-

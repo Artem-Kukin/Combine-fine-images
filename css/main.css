@@ -2,6 +2,9 @@
   padding-top: 80px;
   position: relative;
 }
+.main > .container {
+  overflow: hidden;
+}
 
 .main__background-dots {
   position: absolute;
